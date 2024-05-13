@@ -1,6 +1,6 @@
 ---
 title: "个人简历"
-date: Sat Apr 06 2024 15:08:59 GMT+0800
+date: Sat Fri 06 2024
 draft: false
 ---
 ## 个人简介
