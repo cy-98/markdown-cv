@@ -11,7 +11,7 @@ draft: false
 
 📧  www.caiyue@qq.com
 
-🌐 cy-98.github.io
+🌐 https://github.com/cy-98
 
 ## 工作经历
 
