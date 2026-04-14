@@ -1,6 +1,6 @@
 ---
 title: "个人简历"
-date: Sat Fri 06 2024
+date: 06 2026
 draft: false
 layout: cv
 ---
