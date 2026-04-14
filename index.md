@@ -18,6 +18,8 @@ layout: cv
 
 ### 字节跳动 TikTok-UserGrowth
 
+主要负责跨端 web 页面业务支持和性能优化，自动化测试项目立项和维护。
+
 #### 跨端工程搭建与性能优化 
 
 推动团队接入公司最新跨端渲染框架，完成对跨端工程的技术改造并拿到业务收益。
@@ -47,8 +49,7 @@ layout: cv
 在自动化测试上线后，通过有效拦截率、线上事故数量、稳定性和case覆盖率验证了自动化测试系统构建的收益。
 
 ### Airwallex
-
-熟练包括 Claude 和 cursor 在内的使用 AI 工具，熟悉公司内Agent开发细节，从25年4月开始逐渐丰富AI工具，逐渐增加AI工具的熟悉程度。
+熟悉 Claude，Cursor 使用， 熟悉 公司内部 agent 开发。
 
 #### Frontend design system
 
@@ -68,6 +69,8 @@ layout: cv
 Raycast 开源插件贡献者
 
 Github 开源项目贡献经历
+
+
 
 
 
