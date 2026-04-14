@@ -47,7 +47,7 @@ date: 06 2026
 在自动化测试上线后，通过有效拦截率、线上事故数量、稳定性和case覆盖率验证了自动化测试系统构建的收益。
 
 ### Airwallex
-熟悉 Claude，Cursor 使用， 熟悉 公司内部 agent 开发。
+熟悉 Claude，Cursor 使用， 熟悉 agent 开发。
 
 #### Frontend design system
 
