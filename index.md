@@ -60,10 +60,10 @@ date: 06 2026
 - 搭建组件 bundle size 等指标的可视化看板；
 - 开发与维护 date-time 组件库，负责控制本地化以及符合公司设计语义化的 date & time 的格式化。
 
-#### Treasury 管理系统
-
-- 主导银行账户管理、现金可视化图表与财务报表等核心模块的方案设计与实现，为财务团队提供资金实时视图与多维度分析能力。
-- 使用 **Claude Subagent** 与 **Claude Code skill**，将 Rush workspace 的安装引导、环境变量、跨包调试入口、常见排错与提交流程等**启动与日常开发细节**封装为可复用的标准化路径，显著降低上手门槛；在此基础上搭建端到端协作方式，使**后端同学在统一规范下快速独立完成需求开发与联调**。
+#### Treasury 管理系统 / AI 工程化交付平台
+- 主导银行账户、现金可视化与财务报表等核心模块的方案设计与落地，为财务团队提供资金实时视图与多维度分析能力。
+- 基于 Claude Subagent + Skill，在 Rush monorepo 中沉淀可复用的工程路径：dev-setup（安装 / 环境 / 排错）、graphql-feature / schema-table、TDD、e2e-testing、jira-ticket-loop；并编排 pm → developer → reviewer → deliver 协作链，使后端同学可按统一规范独立完成需求开发与联调。
+以 deliver 端到端编排开发loop「一张 Jira → spec file → 单测驱动 → 实现 → MR → 远程 E2E 截图回写 MR → 流转 Ready for QA」；合并与最终验收由人 review，Agent 负责可验证交付物而非替代决策。
 - 推进老旧技术栈与依赖的**系统性迁移**和**成本治理**，工程形态为 **Rush** 管理的 **monorepo**：多包并存、历史包袱重，包与包之间存在大量复杂且陈旧的依赖关系与隐式耦合，主要包括无用/陈旧依赖清理和迁移，单元测试和E2E测试框架升级，整体机器成本优化。并且将过程积累经验落实为skill。
 
 #### Location service 迁移与维护
