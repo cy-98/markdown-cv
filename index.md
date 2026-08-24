@@ -21,14 +21,12 @@ date: 08 2026
 
 *前端工程师 · 2024 - 至今*
 
-围绕平台前端、测试基础设施和金融平台交付效率，负责公司级 **Foundation**（设计系统、i18n DateTime、Location 服务、Vitest 迁移）与 **Treasury（资金管理）** 的迭代与治理。
+围绕平台前端、测试基础设施和金融平台交付效率，负责公司级 **Foundation**（设计系统与 i18n DateTime / Location / Vitest）与 **Treasury（资金管理）** 的迭代与治理。
 
-#### Foundation（设计系统 / i18n DateTime / Location / Vitest）
+#### Foundation（设计系统 / 平台基础能力）
 
 - **设计系统**：维护含 **100+** 基础与业务组件的组件库，主导旧组件重构与废弃；推动 **20+** 个业务团队完成全量升级，消除 **100+** 个 major 级兼容缺口；自研 AI 升级工具链，并搭建 bundle size 看板。
-- **i18n DateTime**：开发并维护日期时间工具，覆盖多语言本地化，以及符合公司设计语义的 date / time 格式化。
-- **Location Service**：主导 client-geolocation-service 迁移，补齐监控告警、规范域名路由、缩短请求耗时并补齐测试环境，**0 故障**全量切流；补齐自动化测试（**8** 个测试文件 / **39** 个用例全部通过）。
-- **Vitest 迁移**：负责约 **70** 个微前端（MFE）测试栈迁至 Vitest 的盘点与推进，已完成 **9** 个模块。
+- **i18n DateTime / Location / Vitest**：开发并维护日期时间本地化工具；主导 client-geolocation-service 迁移与质量建设（监控告警、域名路由、请求耗时、测试环境，**0 故障**切流，**8** 个测试文件 / **39** 个用例全部通过）；推进约 **70** 个 MFE 测试栈迁至 Vitest，已完成 **9** 个模块。
 
 #### Treasury / 金融平台交付
 
