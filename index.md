@@ -61,5 +61,9 @@ date: 08 2026
 
 ## 个人经历
 
-- **Raycast**：参与 Raycast 社区生态的开源插件开发与维护。
-- **GitHub**：在多个仓库中持续提交 Issue / PR。
+- **Raycast 社区插件**（[raycast/extensions](https://github.com/raycast/extensions)）：参与 Raycast Store 开源扩展的开发与维护。
+  - **Visual Studio Code**：修复 VS Code 新版本 `storage.json` 路径变更导致的兼容性问题（[PR #1630](https://github.com/raycast/extensions/pull/1630)，已合并）；后续提交 Recent Projects 打开崩溃修复（[PR #9449](https://github.com/raycast/extensions/pull/9449)）。
+  - **Tailwind Cheatsheet**：独立开发 Tailwind CSS 速查扩展并提交上架 PR（[PR #1667](https://github.com/raycast/extensions/pull/1667)）。
+- **开源社区贡献**：向上下游依赖库持续提交 Issue / PR。
+  - **rollup-plugin-dts**：修复 `*.d.ts` 输出路径问题（[PR #177](https://github.com/Swatinem/rollup-plugin-dts/pull/177)，已合并）。
+  - **XState**、**react-keyframes**、**Keyframes** 等：提交功能增强与缺陷修复 PR。
