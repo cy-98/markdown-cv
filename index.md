@@ -34,7 +34,7 @@ date: 08 2026
 
 - **核心模块**：主导开发银行账户、现金可视化与财务报表等模块，帮助财务团队实现全球账户资金。财务操作人员自此可以可视化公司资金分布，闲余资金投资操作、批量账户转账操作与 Agent 离线分析。
 - **Agent**：在 Rush monorepo 中清理无用、老旧依赖，沉淀 **6+** 可复用 Skill（TDD 编码、元素设计、服务端驱动渲染、本地调试与验证、远程环境 E2E 验证、交付打分机制）及 **5** 个 Subagent（Planner、developer、tester、deliver、designer）协作链，接入公司在线 Agent 与 Slack bot。以 Jira ticket 为入口，编排「Ticket → spec → 单测 → 实现 → MR → 远程 E2E → 人 review」闭环，能够从零到一一次性交付需求，减少不稳定性和人力介入；后端可按统一规范独立完成标准前端需求，产品可通过 Slack bot 快速产出 UX 原型。
-- **团队收效**：标准前端需求可由对接的两个后端独立交付、无需前端介入；Treasury 前端日常维护从约 **2** 人收敛至 **0.5** 人，等效年节约约 **18** 人月。前端主要关注代码review，代码设计以及需求评审等。
+- **团队收效**：PM 可以通过 Agent 快速产出符合已有样式和交互规范的产品原型。标准前端需求可由对接的两个后端独立交付、无需前端介入；Treasury 前端日常维护从约 **2** 人收敛至 **0.5** 人，等效年节约约 **18** 人月。前端主要关注代码review，代码设计以及需求评审等。
 
 ### 字节跳动 · TikTok User Growth
 
@@ -61,10 +61,10 @@ date: 08 2026
 ## 个人经历
 
 - **Raycast 社区插件**（[raycast/extensions](https://github.com/raycast/extensions)）：参与 Raycast Store 开源扩展的开发与维护。
-  - **Visual Studio Code**：修复 VS Code 新版本 `storage.json` 路径变更导致的兼容性问题（[PR #1630](https://github.com/raycast/extensions/pull/1630)，已合并）；后续提交 Recent Projects 打开崩溃修复（[PR #9449](https://github.com/raycast/extensions/pull/9449)）。
-  - **Tailwind Cheatsheet**：独立开发 Tailwind CSS 速查扩展并提交上架 PR（[PR #1667](https://github.com/raycast/extensions/pull/1667)）。
+  - **Visual Studio Code**：修复 VS Code 新版本 `storage.json` 路径变更导致的兼容性问题；后续提交 Recent Projects 打开崩溃修复。
+  - **Tailwind Cheatsheet**：独立开发 Tailwind CSS 速查扩展并提交上架
 - **开源社区贡献**：向上下游依赖库持续提交 Issue / PR。
-  - **rollup-plugin-dts**：修复 `*.d.ts` 输出路径问题（[PR #177](https://github.com/Swatinem/rollup-plugin-dts/pull/177)，已合并）。
-  - **XState**：`useSpawn` 支持 options 参数（[PR #3419](https://github.com/statelyai/xstate/pull/3419)）。
-  - **react-keyframes**：loop frames 与 end callback（[PR #78](https://github.com/vercel/react-keyframes/pull/78)）。
-  - **Keyframes**：修复 add step 后动画不运行（[PR #25](https://github.com/mitchas/Keyframes/pull/25)）。
+  - **rollup-plugin-dts**：修复 `*.d.ts` 输出路径问题
+  - **XState**：`useSpawn` 支持 options 参数
+  - **react-keyframes**：loop frames 与 end callback
+  - **Keyframes**：修复 add step 后动画不运行
