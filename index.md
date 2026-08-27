@@ -66,4 +66,6 @@ date: 08 2026
   - **Tailwind Cheatsheet**：独立开发 Tailwind CSS 速查扩展并提交上架 PR（[PR #1667](https://github.com/raycast/extensions/pull/1667)）。
 - **开源社区贡献**：向上下游依赖库持续提交 Issue / PR。
   - **rollup-plugin-dts**：修复 `*.d.ts` 输出路径问题（[PR #177](https://github.com/Swatinem/rollup-plugin-dts/pull/177)，已合并）。
-  - **XState**、**react-keyframes**、**Keyframes** 等：提交功能增强与缺陷修复 PR。
+  - **XState**：`useSpawn` 支持 options 参数（[PR #3419](https://github.com/statelyai/xstate/pull/3419)）。
+  - **react-keyframes**：loop frames 与 end callback（[PR #78](https://github.com/vercel/react-keyframes/pull/78)）。
+  - **Keyframes**：修复 add step 后动画不运行（[PR #25](https://github.com/mitchas/Keyframes/pull/25)）。
