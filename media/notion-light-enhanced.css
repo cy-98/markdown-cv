@@ -890,3 +890,33 @@ megamenu-back-btn {
 .megamenu-menu-panel table tr:nth-child(2n + 1) {
     background-color: var(--side-bar-bg-color);
 }
+/* Language switcher */
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    margin: 0 0 1.25em;
+    font-size: 0.9em;
+    color: var(--secondary-text-color);
+}
+
+.lang-switch a {
+    color: var(--url-text-color);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.lang-switch__current {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.lang-switch__sep {
+    color: var(--secondary-text-color);
+}
+
+@media print {
+    .lang-switch {
+        display: none;
+    }
+}
