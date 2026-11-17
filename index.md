@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: "个人简历"
+lang: zh
 date: 08 2026
 ---
 ## 个人简介

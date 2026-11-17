@@ -1,7 +1,8 @@
 <!doctype html>
-<html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}zh{% endif %}">
 <head>
   <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
   <link href="media/{{ site.style }}.css" type="text/css" rel="stylesheet" media="screen">
   <link href="media/{{ site.style }}.css" type="text/css" rel="stylesheet" media="print">
@@ -9,6 +10,17 @@
 <body>
   <div id="main">
     <div id="content">
+    <nav class="lang-switch" aria-label="Language">
+      {% if page.lang == 'en' %}
+        <a href="index.html">中文</a>
+        <span class="lang-switch__sep" aria-hidden="true">·</span>
+        <span class="lang-switch__current" aria-current="page">English</span>
+      {% else %}
+        <span class="lang-switch__current" aria-current="page">中文</span>
+        <span class="lang-switch__sep" aria-hidden="true">·</span>
+        <a href="en.html">English</a>
+      {% endif %}
+    </nav>
     {{ content }}
     </div>
   </div>
